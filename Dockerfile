@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM ubuntu:latest
 WORKDIR /code
 COPY ./helloworld.txt /code/helloworld.txt
 CMD cat helloworld.txt && sleep 30
